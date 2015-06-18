@@ -1,0 +1,5 @@
+appengine-web.xml should contain <application>appname</application>
+where appname - the name of your app engine project.
+
+For local deploys create a maven runner config with "Goals" = appengine:devserver
+For local deploys create a maven runner config with "Goals" = appengine:update
